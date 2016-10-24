@@ -20,10 +20,14 @@ const sampleData = [
         name: 'Group 1',
         resources: [
             {
-                name: 'Resource 1'
+                id: 1,
+                name: 'Resource 1',
+                reserved: true
             },
             {
-                name: 'Resource 2'
+                id: 2,
+                name: 'Resource 2',
+                reserved: false
             }
         ]
     },
@@ -31,10 +35,14 @@ const sampleData = [
         name: 'Group 2',
         resources: [
             {
-                name: 'Resource 3'
+                id: 3,
+                name: 'Resource 3',
+                reserved: false
             },
             {
-                name: 'Resource 4'
+                id: 4,
+                name: 'Resource 4',
+                reserved: false
             }
         ]
     }

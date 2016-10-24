@@ -5,7 +5,7 @@ export default class Group extends React.Component{
     render(){
         const resources = this.props.resources;
         const resourceItems = resources.map((resource) => 
-                            <Resource key={resource.name} name={resource.name}/>);
+                            <Resource key={resource.name} id={resource.id} name={resource.name} reserved={resource.reserved}/>);
         return (
             <div className="row">
                 <div className="col-md-12">
