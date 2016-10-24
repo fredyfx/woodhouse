@@ -4,6 +4,10 @@ This project was created to address the issues with synchronizing work between i
 
 Synchronizing these resources would often lead to messaging or talking with one another to determine if a resource was occupied and by whom, messaging or talking again when the resource was freed, and so on. Rather than wasting time waiting on responses to check on resources, it was decided to create an app to better handle synchronizing between team members. Thus project Woodhouse was born out of this necessity and for the desire to play with different technologies outside of those used in the workplace.
 
+## Project Status
+### (This section will be updated as the project progresses)
+Currently this is only an incomplete mockup.
+
 ## Developing and running the application
 1. Use [Yarn](https://yarnpkg.com/) to get the dependencies with command `yarn`
 2. Use the command `npm run build` to generate the build folder which contains the files for the applocation.
