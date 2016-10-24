@@ -4,8 +4,12 @@ This project was created to address the issues with synchronizing work between i
 
 Synchronizing these resources would often lead to messaging or talking with one another to determine if a resource was occupied and by whom, messaging or talking again when the resource was freed, and so on. Rather than wasting time waiting on responses to check on resources, it was decided to create an app to better handle synchronizing between team members. Thus project Woodhouse was born out of this necessity and for the desire to play with different technologies outside of those used in the workplace.
 
-## Development
+## Developing and running the application
 1. Use [Yarn](https://yarnpkg.com/) to get the dependencies with command `yarn`
+2. Use the command `npm run build` to generate the build folder which contains the files for the applocation.
+3. To run the application you can use an http server. You can run the commands `npm install -g http-server` and `http-server` to start an http server in the current directory.
+
+Note: For development it is recommended to use [Cloud9 IDE](https://c9.io) or your choice of an ide on Linux. You can use Windows for development but the build command may or may not work.
 
 ## Features
 ### (Some not implemented yet but will be soon!)

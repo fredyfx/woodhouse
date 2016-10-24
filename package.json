@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && cp ./client/index.html ./build/"
+    "build": "mkdir -p build && webpack && cp ./client/index.html ./build/"
   },
   "author": "Nappa9693",
   "license": "ISC",
