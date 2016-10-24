@@ -4,6 +4,9 @@ This project was created to address the issues with synchronizing work between i
 
 Synchronizing these resources would often lead to messaging or talking with one another to determine if a resource was occupied and by whom, messaging or talking again when the resource was freed, and so on. Rather than wasting time waiting on responses to check on resources, it was decided to create an app to better handle synchronizing between team members. Thus project Woodhouse was born out of this necessity and for the desire to play with different technologies outside of those used in the workplace.
 
+## Development
+1. Use [Yarn](https://yarnpkg.com/) to get the dependencies with command `yarn`
+
 ## Features
 ### (Some not implemented yet but will be soon!)
 * Able to define user accounts that allow viewing and managing of resources.
@@ -14,4 +17,4 @@ Synchronizing these resources would often lead to messaging or talking with one 
 
 ## Trivia Facts
 * The project was named after the butler in the TV series Archer as a poke at Jenkins.
-* The project was originally named Woodhouse after the character in Family Guy.
+* The project was originally named Buzzkillington after the character in Family Guy.
