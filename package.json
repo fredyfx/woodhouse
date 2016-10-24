@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p build && webpack && cp ./client/index.html ./build/"
+    "build": "mkdir -p build && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./build/ && cp ./node_modules/bootstrap/dist/js/bootstrap.min.js ./build/ && cp ./node_modules/jquery/dist/jquery.min.js ./build/ && webpack && cp ./client/index.html ./build/"
   },
   "author": "Nappa9693",
   "license": "ISC",
@@ -17,8 +17,8 @@
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "flow-bin": "^0.33.0",
+    "jquery": "2",
     "react": "^15.3.2",
-    "react-bootstrap": "^0.30.5",
     "react-dom": "^15.3.2",
     "webpack": "^1.13.2"
   },
